@@ -18,7 +18,9 @@ const App = () => {
 
   }, []);
   return (
-    <div>{data}</div>
+    <div>{data}
+    <h1>Automated Deployment Working!</h1>
+    </div>
   )
 }
 

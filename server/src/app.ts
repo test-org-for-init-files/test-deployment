@@ -10,7 +10,7 @@ const createApp = () => {
 
   app.get("/api/user", (_req, res) => {
     res.status(200).json({
-      message: "Server is running!",
+      message: "Server is running! Automation working in server too",
     });
   });
 
