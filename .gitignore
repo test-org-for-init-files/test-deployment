@@ -3,10 +3,6 @@ node_modules/
 **/node_modules/
 
 # Environment variables
-.env
-.env.*
-**/.env
-**/.env.*
 
 # Build outputs
 server/dist/
@@ -17,3 +13,4 @@ server/public/
 
 # OS files
 .DS_Store
+config.bat
