@@ -4,9 +4,9 @@
   "description": "",
   "main": "./src/server.js",
   "scripts": {
-    "dev": "node init && tsx --watch ./src/server.js",
-    "start": "node init && node ./dist/server.js",
-    "build": "node init && tsc"
+    "dev": "tsx --watch ./src/server.js",
+    "start": "node ./dist/server.js",
+    "build": "tsc"
   },
   "keywords": [],
   "type": "module",
